@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+
+.form-box {
+    padding: 20px;
+    width: 400px;
+    background-color: darkgray;
+    margin: 20px auto; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input {
+    height: 24px;
+    padding: 4px;
+}
+
+.btn {
+    height: 24px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
