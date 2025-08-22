@@ -5,35 +5,89 @@
 }
 
 
-.table{
-    border-collapse: collapse;  
+.table {
+    border-collapse: collapse;
+    width: 100%;
     text-align: center;
+    font-size: 24px;
 
 }
-.thead{
+
+.thead {
     border: 1px solid black;
 
 }
 
-tr,th,td{
+tr,
+th,
+td {
     padding: 4px;
 }
 
-.head-panel{
+.admin-panel {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.head-panel {
     display: flex;
-    text-align: center;
-    justify-content: space-between;
-    width: 1400px;
-    margin: 20px;
-    background-color: aqua;
-}
-
-.admin-panel{
     align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
+.heading {
+    font-size: 38px;
+}
 
+.head-panel .btn {
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: brown;
+}
 
+.form-box {
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    display: none;
+}
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.form input {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+}
 
+.form .btn {
+    padding: 6px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
